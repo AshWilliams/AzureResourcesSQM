@@ -1,0 +1,13 @@
+https://www.terraform.io/docs/providers/azurerm/auth/service_principal_client_secret.html
+
+9449d579-1890-436c-993c-b4137de560d2
+
+az.cmd ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/9449d579-1890-436c-993c-b4137de560d2"
+
+{
+  "appId": "86e89d2d-ad35-4051-85cc-21cd8c0a659e",
+  "displayName": "azure-cli-2019-03-18-14-46-26",
+  "name": "http://azure-cli-2019-03-18-14-46-26",
+  "password": "a36323bc-d7f7-452c-8b17-69c5016f78c4",
+  "tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+}
